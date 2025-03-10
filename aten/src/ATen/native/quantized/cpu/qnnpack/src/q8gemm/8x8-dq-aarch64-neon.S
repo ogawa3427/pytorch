@@ -659,6 +659,7 @@ BEGIN_FUNCTION pytorch_q8gemm_dq_ukernel_8x8__aarch64_neon
     ST1 {v19.4s}, [x13]
     ST1 {v20.4s}, [x14], 16
     ST1 {v21.4s}, [x14]
+# ねえよ～～～
     ST1 {v22.4s}, [x15], 16
     ST1 {v23.4s}, [x15]
 
